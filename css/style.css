@@ -1,9 +1,17 @@
+/*<!--we want to use this font for all <p> </p> text.-->*/
+p {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+
+
+
 /*[Jerry] add for NAVBAR */
 .navbar {
 
   background-color: #242424;
   border-bottom: 1px solid #b9b9b9;
-  font-family: 'Lato', sans-serif; 
+  font-family: 'Lato', sans-serif;
 }
 
 /*[Jerry] add for NAVBAR link */
@@ -22,4 +30,32 @@
 .navbar-header .navbar-brand{
   color: white !important;
   font-size: 1.5em;
+}
+
+/*HEADER, original header will be covered by navber a little bit.*/
+.header {
+  padding: 140px 0 60px 0 ;
+  background: url(../img/bg.jpg) no-repeat center center;
+  background-size: cover;
+  width:100%;
+  border-bottom: 2px solid #c9c9c9;/*separate the other section.*/
+}
+
+/*because above, we add the dark background pic, we need light up our text*/
+.header h1{
+  color: white;
+  font-family: 'Pacifico', cursive;/*font from google*/
+  font-size: 7.5em;/*bigger*/
+
+}
+
+.header p{
+  color: white;
+  font-size: 1.3em;/*bigger*/
+
+}
+
+.header .btn{
+  padding: 5px 50px 5px 50px;
+  /*border-radius: 0;*/
 }
