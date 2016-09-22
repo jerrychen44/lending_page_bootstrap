@@ -1,0 +1,24 @@
+/*[Jerry] add for NAVBAR */
+.navbar {
+
+  background-color: #242424;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+/*[Jerry] add for NAVBAR link */
+.navbar a {
+  color: #cccccc !important;/*use !import to overwrite the setting of bootstrap*/
+}
+
+/*[Jerry] add for NAVBAR link when hover */
+.navbar a:hover{
+
+  color: #ffffff !important;
+  background-color: #646464 !important;
+}
+/*[Jerry] make LOGO more stand out a little better. */
+/*because we have <a class="navbar-brand" herf="#">Brand LOGO</a> inside the navbar-header */
+.navbar-header .navbar-brand{
+  color: white !important;
+  font-size: 1.5em;
+}

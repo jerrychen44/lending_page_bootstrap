@@ -21,25 +21,57 @@
   </head>
   <body>
 
+
+    <!-- NAVBAR -->
     <!-- [Jerry] add navbar [START]-->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!-- [Jerry] you can find at http://getbootstrap.com/components/#navbar-buttons the part of Fixed to top-->
+    <!-- [Jerry] we will add css navbar by ourown on style.css later -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
 
+        <!-- [Jerry] you can find at http://getbootstrap.com/components/#navbar-buttons the part of Default navbar-->
         <div class="navbar-header">
-
+          <!-- [Jerry] add navbar list button when windows get really small-->
+          <!-- [Jerry] you can find at http://getbootstrap.com/components/#navbar-buttons the part of Default navbar-->
+          <!-- [Jerry] in the middel of sample code, the data-target means what list will show, the class id we define later below-->
   				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
+              <span class="icon-bar"></span><!--add three line just for good looking-->
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" herf="#">LOGO</a>
+          <!-- [Jerry] you can find at http://getbootstrap.com/components/#navbar-buttons the part of Brand image-->
+          <a class="navbar-brand" herf="#">Brand Logo</a>
 
         </div>
+
+
+
+        <!-- [Jerry] you can find at http://getbootstrap.com/components/#navbar-buttons the part of Default navbar-->
+        <!--Check the same Link.-->
+        <div class="navbar-collapse collapse">
+          <!-- [Jerry] you can find at http://getbootstrap.com/components/#navbar-buttons, the part of Component alignment-->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Screens</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+
+
       </div>
-    </div>
+    </nav>
     <!-- [Jerry] add navbar END -->
+    <!-- END NAVBAR -->
+
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
