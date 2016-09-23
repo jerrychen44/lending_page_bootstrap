@@ -1,5 +1,5 @@
 /*<!--we want to use this font for all <p> </p> text.-->*/
-p {
+p, h1{
   font-family: 'Droid Sans', sans-serif;
 }
 
