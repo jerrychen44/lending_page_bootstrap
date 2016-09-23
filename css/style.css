@@ -200,3 +200,21 @@ p, h1{
  /*because when screen really small, the apple icon will to close the wording*/
  padding-top:25px;
 }
+
+/*CONTACT*/
+
+.contact {
+ padding:100px 0 100px;
+ text-align:center;
+}
+.contact h1 {
+ font-size:2em;
+ padding-bottom: 25px;
+}
+.contact .fa {
+ color:#1c3f5c;
+ padding:20px 10px 40px;
+}
+.contact li {
+ padding-top: 10px;
+}
