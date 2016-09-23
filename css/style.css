@@ -160,3 +160,43 @@ p, h1{
 .screenshots h1 {
  font-size:2em;
 }
+
+
+
+/*REVIEWS*/
+
+.reviews {
+ padding:90px 0 90px;
+ text-align:center;
+}
+.reviews h1 {
+ font-size:2em;
+ padding-bottom: 25px;
+ color:#337ab7;
+}
+.reviews p {
+ padding: 0 0 35px;
+}
+/*special for long review*/
+.reviews .line2 {
+ padding-top:35px;
+}
+
+/*BUY*/
+
+.buy {
+ padding:100px 0 100px;
+ background-color:#1c3f5c;
+ color:white;
+ text-align:center;
+}
+.buy h1 {
+ font-size:2em;
+ padding-bottom:25px;
+}
+.buy button {
+ background:transparent;
+ border:none;
+ /*because when screen really small, the apple icon will to close the wording*/
+ padding-top:25px;
+}
