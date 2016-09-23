@@ -121,3 +121,25 @@ p {
 .features img {
  padding:15px 0 35px;
 }
+
+/*PRESS*/
+
+.press {
+ padding:90px 0 90px;
+ text-align:center;
+}
+
+.press h1 {
+ font-size:1.8em;
+ padding-bottom:25px;
+ color:#337ab7;
+}
+
+/*change the img effect*/
+.press .press-logo li img {
+ opacity:0.3; /*0 is totally opacity*/
+ padding-bottom:25px;
+}
+.press .press-logo li:hover img {
+ opacity:1;
+}
