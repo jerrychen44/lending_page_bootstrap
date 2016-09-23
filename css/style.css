@@ -29,6 +29,11 @@ p, h1{
   font-size: 1.5em;
 }
 
+/*add it because the data spy will high light the navbar link, when scroll down the page*/
+.navbar-default .nav li.active a {
+ color:#1d1d1d !important;
+}
+
 /*HEADER, original header will be covered by navber a little bit.*/
 .header {
   padding: 140px 0 60px 0 ;
